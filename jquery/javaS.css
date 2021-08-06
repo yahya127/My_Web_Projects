@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Cairo', sans-serif;
+	background-color: #999;
+}
+.faq{
+	width: 560px;
+	margin: 50px auto;
+	margin-bottom: 100px;
+}
+.faq-item-title{
+	cursor: pointer;
+	background-color: #33dd99;
+	color: #fff;
+	border: 1px solid #f8f8f8;
+	padding: 10px;
+}
+.faq-item-title:hover{
+	background-color:#fff;
+	color: #33dd99;
+}
+.faq-item-content{
+	background-color:white;
+	color: black;
+	padding: 10px;
+}
+.faq-item:first-child .faq-item-title{
+	border-radius: 10px 10px 0 0;
+}
+
+.faq-item:last-child .faq-item-title{
+	border-radius: 0 0 10px 10px;
+}
+/*slider*/
+.slider{
+	margin: auto;
+	width: 580px;
+}
+.slide{
+	width: 500px;
+	height: 300px;
+	overflow: hidden;
+	float: left;
+	position: relative;
+}
+.slide img{
+	width: 100%;
+	height: 100%;
+}
+
+.prev, .next{
+	float: left;
+	margin-top: 150px;
+	cursor: pointer;
+}
+/*tabs scripts*/
+.tabs ul{
+	list-style: none;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	margin-bottom: 20px;
+}
+.tabs ul li{
+	width: 25%;
+	height: 50px;
+	text-align: center;
+	background-color: darkgrey;
+	cursor: pointer;
+	line-height: 50px;
+	transition: all 0.2s ease-in;
+}
+.tabs ul li:first-child{
+	border-radius: 15px 0 0 15px;
+}
+.tabs ul li:last-child{
+	border-radius: 0px 15px 15px 0px;
+}
+.tabs ul li:hover{
+	background-color: darkslategray;
+	color: white;
+}
+.tabs .active{
+	background-color: darkslategray;
+	color: white;
+}
+.container{
+	width: 560px;
+	margin: 500px auto 50px auto;
+	background-color: white;
+	padding: 20px;
+	border-radius: 15px;
+	box-shadow: 0 0 5px black;
+}
+
+#wsfooter{
+	clear:both;
+	text-align:center;
+	background-color:#253342;
+	color:white;
+	padding:20px 0px;
+}
+
+#wsfooter a{
+	color: white;
+	text-decoration: none;
+}

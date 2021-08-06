@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: lightgray;
+}
+.container{
+    background-color:gray;
+    
+	width: 100%;
+	margin: 40px 0px 0px 160px ;
+	
+}
+
+.Raside{
+	border:5px solid gray;
+	border-right: none;
+	background-color: orange;
+	width: 324px;
+	float: left;
+	margin-bottom: 40px;
+}
+video{
+	background-color: black;
+}
+#IMG{
+   background-color:midnightblue;
+	opacity: 0.6;
+	width:314px;
+	height: 240px;
+	color:white;
+	padding: 3px;
+}
+.skills{
+	width: 270px;
+	color:white;
+	margin: auto;
+	padding:20px 10px 20px 40px;
+	margin-right: 4px;
+}
+.skills h2{
+	border-bottom:1px solid white;
+	padding-bottom: 2px;
+}
+meter{
+   width: 250px;
+   height: 25px;
+   border: 1px solid orange;
+}
+.lists{
+	padding: 5px 0px;
+}
+.conlists{
+	padding-bottom: 50px;
+}
+.contact{
+	padding:10px 0px;
+}
+.contact p{
+	padding: 10px 0px;
+}
+
+.contact p span{
+	color:orange;
+}
+.Laside{
+	border:5px solid gray;
+	border-left: none;
+	background-color: white;
+	width:800px;
+	float: left;
+	padding: 0px 30px;
+	margin-bottom: 40px;
+}
+.Laside h1{
+	padding: 15px ;
+	font-size: 48px;
+}
+.hitP{
+	padding:5px ;
+	font-size: 24px;
+}
+.icon label{
+	font-size: 20px;
+	padding-left: 10px;
+	line-height: 50px;
+}
+.index{
+	 width:100%;
+	height:60px;
+	opacity: 0.9;
+	padding-bottom: 20px;
+}
+.index h1{
+	color:white;
+	padding: 15px;
+	padding-left: 20px;
+}
+.Acon{
+	padding: 30px;
+}
+.Bcon{
+	padding: 20px 30px;
+}
+.label3{
+	color: gray;
+}
+.bbcon{
+	padding: 19.5px 30px;
+}
+.bbcon p{
+	padding: 20px 0px;
+}
+
+
+
